@@ -1,3 +1,10 @@
+/**
+ * Creator: Yeabsra Ayalew
+ * 
+ * Date: 2021 - 11 - 09
+ * 
+ * The purpose of this code is to make a game similar to the one known as ping pong on a microbit using the software Makecode
+ */
 input.onButtonPressed(Button.A, function () {
     if (paddleA.get(LedSpriteProperty.X) > 0) {
         paddleA.change(LedSpriteProperty.X, -1)
